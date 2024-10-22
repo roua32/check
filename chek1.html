@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d6f3e0edaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Zeiri's Food</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">zeiri's Food</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu1">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero-section text-center">
+        <div>
+          <h1>Welcome to The Restaurant</h1>
+          <button class="btn btn-primary btn-lg">Explore Our Menu</button>
+        </div>
+      </div>
+    </header>
+    <br />
+    <!-- main -->
+    <main>
+      <div id="menu1" class="container text-center">
+        <div class="row">
+          <div class="col dish_1">
+            <div>
+              <img
+                class="menu"
+                src="https://media.istockphoto.com/id/1305699663/fr/photo/plateau-de-fruits-de-mer-homard-grill%C3%A9-crevettes-p%C3%A9toncles-langoustines-poulpe-calmar-sur.jpg?s=612x612&w=0&k=20&c=5sV9oi8gBHHAL0v5CVXTK1CVd-SyDlDjkoFwuzOi0bE="
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>plateau de fruits de mer grillés</h5>
+              <p>
+                Un plateau généreux de fruits de mer grillés, composé de
+                crevettes juteuses, de calamars tendres, de pétoncles fondants
+                et de homard savoureux, le tout sublimé par des herbes fraîches
+                et accompagné de citron pour une touche d'acidité.
+              </p>
+              <h6>Prix : 170DT</h6>
+            </div>
+          </div>
+
+          <div class="col dish_2">
+            <div>
+              <img
+                class="menu"
+                src="https://publish.purewow.net/wp-content/uploads/sites/2/2021/07/types-of-shellfish-oysters.jpg?fit=728%2C524"
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>plateau d'huîtres</h5>
+              <p>
+                Les huîtres fraîches, servies sur un lit de glace et
+                accompagnées de citron, offrent une explosion de saveurs marines
+                délicates et raffinées, parfaites pour les amateurs de fruits de
+                mer.
+              </p>
+              <h6>Prix : 100DT</h6>
+            </div>
+          </div>
+
+          <div class="col dish_3">
+            <div>
+              <img
+                class="menu"
+                src="https://fgdjrynm.filerobot.com/acc/recipes/14efa9ed4cbdbe1cc4f687b1b7490a4d8e5f88b0e122ee59009d3a79ae858b3f.jpg?h=800&w=800&q=60"
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>saumon fumé</h5>
+              <p>
+                Le saumon gravlax, délicatement mariné et tranché finement, est
+                sublimé par une garniture fraîche de verdure, offrant une
+                alliance parfaite de saveurs douces et fumées.
+              </p>
+              <h6>Prix : 70DT</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section about us -->
+      <div class="my-5" id="about">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://tomasina-paris.com/static/uploads/2024/07/deco-restaurant-chic-1.jpg"
+              class="img-fluid"
+              alt="Restaurant"
+            />
+          </div>
+          <div class="col-md-6">
+            <h5>About Us</h5>
+            <p>
+              "Notre Restaurant sert de délicieux plats depuis 1990. Nous sommes
+              fiers d'utiliser uniquement des ingrédients frais pour créer des
+              repas à la fois nutritifs et savoureux."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+
+      <div id="contact" class="my-5" id="contact">
+        <h5 class="text-center">Contact Us</h5>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" placeholder="Your Name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" placeholder="name@example.com" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea rows="3" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Fictional Restaurant. All rights reserved.</p>
+        <p>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </p>
+      </footer>
+    </main>
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>

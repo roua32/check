@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Playwrite+ES:100,200,300,regular");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+main {
+  background-color: #343a40;
+}
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.hero-section {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg");
+}
+.container {
+  background-color: rgb(228, 206, 186);
+  height: 600px;
+  border-radius: 20%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+  width: 100%;
+}
+.menu {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+h5 {
+  margin: 50px;
+  color: brown !important;
+  font-family: "Playwrite ES";
+  font-weight: 900 !important;
+}
+p {
+  text-align: justify;
+  font-weight: 600;
+  margin: 50px;
+  padding: 0;
+}
+h6 {
+  font-family: "Playwrite ES";
+}
+#about {
+  background-color: rgb(219, 212, 206);
+  width: 100%;
+  margin: auto;
+}
+.img-fluid {
+  border-radius: 15%;
+}
+
+#contact {
+  background-color: #f8f9fa !important;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+#contact h5 {
+  color: #333 !important;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #0d4680;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #ff006a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #343a40;
+  margin: 0 10px;
+  transition: color 0.3s;
+  font-size: 30px;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+footer i {
+  margin: 0 5px;
+}
