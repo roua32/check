@@ -33,10 +33,13 @@ img {
 .col {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 15px;
   height: 600px;
   width: 100%;
+  /* border: 1px red solid; */
 }
+
 .menu {
   border-radius: 50%;
   height: 200px;
@@ -49,12 +52,15 @@ h5 {
   color: brown !important;
   font-family: "Playwrite ES";
   font-weight: 900 !important;
+  height: 50px;
 }
 p {
   text-align: justify;
   font-weight: 600;
   margin: 50px;
   padding: 0;
+  /* border: 1px blue solid; */
+  height: 170px;
 }
 h6 {
   font-family: "Playwrite ES";
@@ -63,11 +69,16 @@ h6 {
   background-color: rgb(219, 212, 206);
   width: 100%;
   margin: auto;
+  border-radius: 100px;
 }
-.img-fluid {
-  border-radius: 15%;
+.img-fluid, .col-md-6 {
+  border-radius: 100px 0 0 100px !important;
 }
-
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 #contact {
   background-color: #f8f9fa !important;
   padding: 40px;
