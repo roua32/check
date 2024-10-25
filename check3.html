@@ -1,0 +1,117 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 1</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed text-gray-900">
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Me</h1>
+      <nav class="space-x-4">
+        <a class="nav-item text-gray-700 hover:text-blue-600" href="#about"
+          >About</a
+        >
+        <a class="nav-item text-gray-700 hover:text-blue-600" href="#work"
+          >Work</a
+        >
+        <a class="nav-item text-gray-700 hover:text-blue-600" href="#resume"
+          >Resume</a
+        >
+        <a class="nav-item text-gray-700 hover:text-blue-600" href="#contact"
+          >Contact</a
+        >
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container mx-auto p-6 space-y-12">
+    <section id="about" class="bg-white p-6 rounded shadow-md">
+      <h2 class="text-xl font-semibold mb-4 text-blue-600">About me</h2>
+      <p>
+        My name is Zeiri Roua, I am 24 years old and am from Tunisia. I am
+        passionate about web development, which is why I enrolled in Go myCode.
+        I have many hobbies such as reading and listening to music.
+      </p>
+      <p class="mt-4">This is my favorite song</p>
+      <iframe
+        class="w-full h-64 mt-4 rounded"
+        src="https://www.youtube.com/embed/urLTg-3eImU?si=O5PMuDt1ZEPfF8kr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p class="mt-4">And this is my favorite movie</p>
+      <img
+        class="w-1/2 mt-4 rounded shadow-md"
+        src="https://images.ladepeche.fr/api/v1/images/view/5c24f8a03e454632875fa244/large/image.jpg"
+        alt="Harry Potter"
+      />
+    </section>
+
+    <section id="work" class="bg-white p-6 rounded shadow-md">
+      <h2 class="text-xl font-semibold mb-4 text-blue-600">My work</h2>
+      <p>These are my projects</p>
+      <ul class="list-disc pl-6 mt-2">
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="bg-white p-6 rounded shadow-md">
+      <h2 class="text-xl font-semibold mb-4 text-blue-600">My resume</h2>
+      <a
+        class="text-blue-500 hover:underline"
+        target="_blank"
+        href="https://www.linkedin.com/in/roua-zeiri-247879240/"
+        >This is my LinkedIn</a
+      >
+    </section>
+
+    <section id="contact" class="bg-white p-6 rounded shadow-md">
+      <h2 class="text-xl font-semibold mb-4 text-blue-600">Contact Me</h2>
+      <form class="space-y-4">
+        <div>
+          <label for="name" class="block text-gray-700">Your name</label>
+          <input
+            type="text"
+            class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500"
+            placeholder="Type your name"
+          />
+        </div>
+        <div>
+          <label for="email" class="block text-gray-700">Your E-mail</label>
+          <input
+            type="email"
+            class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500"
+            placeholder="Type your e-mail"
+          />
+        </div>
+        <div>
+          <label for="message" class="block text-gray-700">Message</label>
+          <textarea
+            class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500"
+            rows="5"
+            placeholder="Say something"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gray-200 text-center py-4 mt-8">
+    <p>&copy; Zeiri Roua, 2024</p>
+  </footer>
+</body>
